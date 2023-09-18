@@ -1,5 +1,6 @@
 package ejemplos;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ClassMain {
@@ -49,7 +50,7 @@ public class ClassMain {
     }
 
     public static void main(String[] args) {
-        int num1,num2;
+        /*int num1,num2;
 
         System.out.println("Introduce el primer numero");
         num1 = pedirNumero();
@@ -64,7 +65,22 @@ public class ClassMain {
 
 
         System.out.println("Introduce un numero para la lista de fibonacci");
-        fibonacci(pedirNumero());
-        // Comentario
+        fibonacci(pedirNumero());*/
+        //Comentario
+
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Integer> numeros = new ArrayList<Integer>() ;
+        String number;
+        while (true){
+            number = sc.nextLine();
+            if(number.equals("x")){break;}
+            numeros.add(Integer.valueOf(number));
+        }
+
+        for(int i=0;i<numeros.size();i++){
+            System.out.print(numeros.get(i) + " ,");
+        }
+
+
     }
 }
