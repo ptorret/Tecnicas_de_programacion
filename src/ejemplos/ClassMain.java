@@ -68,7 +68,7 @@ public class ClassMain {
         fibonacci(pedirNumero());*/
         //Comentario
 
-        Scanner sc = new Scanner(System.in);
+        /*Scanner sc = new Scanner(System.in);
         ArrayList<Integer> numeros = new ArrayList<Integer>() ;
         String number;
         while (true){
@@ -84,6 +84,31 @@ public class ClassMain {
 
         for(int num:numeros){
             System.out.print(num + " ,");
+        }*/
+
+        Scanner sc = new Scanner(System.in);
+        String palabra = sc.nextLine();
+
+        for(int i=0;i<palabra.length();i++){
+            System.out.println(palabra.charAt(i));
+        }
+        for(int j=palabra.length()-1;j>=0;j--){
+            System.out.println(palabra.charAt(j));
+        }
+
+        System.out.println("El numero de letras es : " + palabra.length());
+
+        for(int i=0;i<palabra.length();i++){
+            switch (palabra.charAt(i)) {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    continue;
+                default:
+                    System.out.println(palabra.charAt(i));
+            }
         }
     }
 }
