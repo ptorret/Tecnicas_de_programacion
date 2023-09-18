@@ -82,5 +82,8 @@ public class ClassMain {
         }
 
 
+        for(int num:numeros){
+            System.out.print(num + " ,");
+        }
     }
 }
