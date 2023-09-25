@@ -50,6 +50,7 @@ public class ClassMain {
     }
 
     public static void main(String[] args) {
+        //Suma de dos primos
         /*int num1,num2;
 
         System.out.println("Introduce el primer numero");
@@ -66,7 +67,8 @@ public class ClassMain {
 
         System.out.println("Introduce un numero para la lista de fibonacci");
         fibonacci(pedirNumero());*/
-        //Comentario
+
+        //Ejercicio de array
 
         /*Scanner sc = new Scanner(System.in);
         ArrayList<Integer> numeros = new ArrayList<Integer>() ;
@@ -85,6 +87,8 @@ public class ClassMain {
         for(int num:numeros){
             System.out.print(num + " ,");
         }*/
+
+        //Ejercicion de String
 
         Scanner sc = new Scanner(System.in);
         String palabra = sc.nextLine();
