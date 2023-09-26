@@ -70,7 +70,7 @@ public class ClassMain {
 
         //Ejercicio de array
 
-        /*Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         ArrayList<Integer> numeros = new ArrayList<Integer>() ;
         String number;
         while (true){
@@ -86,11 +86,11 @@ public class ClassMain {
 
         for(int num:numeros){
             System.out.print(num + " ,");
-        }*/
+        }
 
         //Ejercicion de String
 
-        Scanner sc = new Scanner(System.in);
+        /*Scanner sc = new Scanner(System.in);
         String palabra = sc.nextLine();
 
         for(int i=0;i<palabra.length();i++){
@@ -113,6 +113,6 @@ public class ClassMain {
                 default:
                     System.out.println(palabra.charAt(i));
             }
-        }
+        }*/
     }
 }
