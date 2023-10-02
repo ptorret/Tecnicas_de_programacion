@@ -1,4 +1,4 @@
-# Tecnicas_de_programacion
+
 classDiagram
 Class01 <|-- AveryLongClass : Cool
 <<Interface>> Class01
